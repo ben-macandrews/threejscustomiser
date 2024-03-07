@@ -18,17 +18,17 @@ const Backdrop = () => {
       rotation={[Math.PI / 2, 0, 0]}
     >
       <RandomizedLight
-        amount={4}
+        amount={1}
         radius={9}
-        intensity={0.55}
-        ambient={0.25}
+        intensity={.8}
+        ambient={.8}
         position={[5, 5, -10]}
       />
       <RandomizedLight
-        amount={4}
+        amount={1}
         radius={5}
         intensity={0.25}
-        ambient={0.55}
+        ambient={.8}
         position={[-5, 5, -9]}
       />
     </AccumulativeShadows>
